@@ -169,9 +169,7 @@
 
                             <div class="item">
                                 <h3 class="title"><a href="https://github.com/composer/composer/pull/6455">Suggested fix for issue #4385</a></h3>
-                                <small>See: <a href="https://github.com/composer/composer/issues/4385">Issue #4385</a> - Autoload different files for a class for different PHP-Versions</small>
-                                <p class="summary">Add an additional if...then condition in the autoloader that searches for the respective versioned extension (<code>.php3</code>, <code>.php4</code>, <code>.php5</code>, <code>.php7</code>) when the default extension
-(<code>.php</code>) is not found..</p>
+                                <p class="summary">Add an additional if...then condition in the autoloader that searches for the respective versioned extension (<code>.php3</code>, <code>.php4</code>, <code>.php5</code>, <code>.php7</code>) when the default extension (<code>.php</code>) is not found..</p>
 
                                 <ul class="progress-indicator">
                                     <li>
@@ -199,15 +197,14 @@
                                         Released
                                     </li>
                                 </ul>
-                                <small> * The functionality required spans multiple PHP versions and relies on a constant that is set by the framework.  Unit tests can not effectively simulate different PHP versions.
+
+                                <small>See: <a href="https://github.com/composer/composer/issues/4385">Issue #4385</a> - Autoload different files for a class for different PHP-Versions<br>
+                                * The functionality required spans multiple PHP versions and relies on a constant that is set by the framework.  Unit tests can not effectively simulate different PHP versions.</small>
                             </div><!--//item-->
 
 
                             <div class="item">
                                 <h3 class="title"><a href="https://github.com/composer/composer/pull/6455">Fix for issue #5631</a></h3>
-                                <small>See: <a href="https://github.com/composer/composer/issues/5631">Issue #5631</a> - Composer init not accepting my name (similar to issue #3948)
-                                <br>
-                                See: <a href="https://github.com/composer/composer/issues/3948">Issue #3948</a> - Composer init Author name not valid.</small>
                                 <p class="summary">Add <code>"</code> <code>(</code> and <code>)</code> as valid characters in author name</p>
 
                                 <ul class="progress-indicator">
@@ -236,6 +233,9 @@
                                         <small><a href="https://github.com/composer/composer/milestone/15">1.2</a></small>
                                     </li>
                                 </ul>
+                                <small>See: <a href="https://github.com/composer/composer/issues/5631">Issue #5631</a> - Composer init not accepting my name (similar to issue #3948)
+                                <br>
+                                See: <a href="https://github.com/composer/composer/issues/3948">Issue #3948</a> - Composer init Author name not valid.</small>
                             </div><!--//item-->
 
                         </div><!--//content-->
