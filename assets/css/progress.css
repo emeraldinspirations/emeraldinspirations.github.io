@@ -75,31 +75,3 @@
 .progress--large {
   font-size: 2em;
 }
-
-/**
- * Some Generic Stylings
- */
-*, *:after, *:before {
-  box-sizing: border-box;
-}
-
-h1 {
-  margin-bottom: 1.5em;
-}
-
-.progress {
-  margin-bottom: 3em;
-}
-
-a {
-  color: #3498DB;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-body {
-  text-align: center;
-  color: #444;
-}
